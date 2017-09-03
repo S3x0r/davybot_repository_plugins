@@ -6,7 +6,7 @@ if(PHP_SAPI !== 'cli') { die('This script can\'t be run from a web browser. Use 
 
 function plugin_fetch()
 {
-  if(empty($GLOBALS['args'])) { BOT_RESPONSE('Usage: '.$GLOBALS['CONFIG_CMD_PREFIX'].'fetch <list> / fetch get <plugin>'); } 
+  if(empty($GLOBALS['args'])) { BOT_RESPONSE('Usage: '.$GLOBALS['CONFIG_CMD_PREFIX'].'fetch list / fetch get <plugin>'); } 
   
   else {
 
@@ -15,7 +15,7 @@ function plugin_fetch()
         $addr_list = 'https://raw.githubusercontent.com/S3x0r/davybot_repository_plugins/master/plugin_list.db';
 		$list = file_get_contents($addr_list);
 	  	BOT_RESPONSE('Repository list:');
-	    fputs($GLOBALS['socket'], 'PRIVMSG '.$GLOBALS['CONFIG_CNANNEL']." :$list\n");
+		BOT_RESPONSE($list);
 		BOT_RESPONSE('End list.');
 	  }
 
