@@ -26,6 +26,7 @@ ping -- Pings a host: !ping <host>
 quit -- Shutdown BOT: !quit
 raw -- Sends raw string to server: !raw <string>
 restart -- Restarts Bot: !restart
+ripe -- Checks ip or host address and shows results: !ripe <ip or host>
 save -- Saving to config file: !save <help> to list commands
 showconfig -- Shows BOT configuration: !showconfig
 topic -- Changing Topic in channel: !topic <new_topic>
