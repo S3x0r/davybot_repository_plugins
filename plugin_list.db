@@ -1,1 +1,48 @@
-empty for now :)
+addadmin -- Add host to admin list in config: !addadmin <nick!ident@host>
+addowner -- Add owner host to config: !addowner <nick!ident@hostname>
+checkupdate -- Checking for updates: !checkupdate
+cluster -- Clustering plugin: !cluster help to list commands
+info -- Shows info: !info
+join -- Joins channel: !join <#channel>
+leave -- Leave channel: !leave <#channel>
+listadmins -- Shows BOT admins: !listadmins
+listowners -- Shows BOT owners: !listowners
+memusage -- Shows how much ram is being used by bot: !memusage
+newnick -- Changes nickname: !newnick <new_nick>
+plugin -- Plugins manipulation: !plugin help to list commands
+quit -- Shutdown BOT: !quit
+raw -- Sends raw string to server: !raw <string>
+remadmin -- Removes admin from config file: !remadmin <nick!ident@hostname>
+remowner -- Removes owner from config file: !remowner <nick!ident@hostname>
+restart -- Restarts Bot: !restart
+save -- Saving to config file: !save help to list commands
+server -- Connect to specified server: !server <server ip>
+showconfig -- Shows BOT configuration: !showconfig
+update -- Updates the BOT if new version is available: !update
+winamp -- Controls winamp: !winamp <help>
+autoop -- Adds host to autoop list in config file: !autoop <nick!ident@host>
+ban -- Ban specified host: !ban <nick!ident@host>
+cham -- Shows random text from file: !cham <nick>
+deop -- Deops someone: !deop <nick>
+devoice -- Devoice user: !devoice <nick>
+kick -- Kicks from channel: !kick <#channel> <who>
+op -- Gives op: !op <nick>
+say -- Say specified text to channel: !say <text>
+topic -- Changing Topic in channel: !topic <new_topic>
+unban -- Uban specified host: !unban <nick!ident@host>
+voice -- Gives voice: !voice <nick>
+bash -- Shows quotes from bash.org: !bash
+gethost -- Ip address to hostname change: !gethost <ip>
+hash -- Changing string to choosed algorithm: !hash help to list algorithms
+help -- Shows BOT commands: !help
+md5 -- Changing string to MD5: !md5 <string>
+morse -- Converts to morse code: !morse <text>
+note -- Adds a note: !note help to list commands
+ping -- Pings host/ip: !ping <host/ip>
+ripe -- Checks ip address and shows results: !ripe <ip>
+uptime -- Shows BOT uptime: !uptime
+weather -- Shows actual weather: !weather <city>
+webstatus -- Shows http status: !webstatus <number>
+webtitle -- Shows webpage titile: !webtitle <web address>
+wikipedia -- Searchs wikipedia: !wikipedia <lang> <string>
+youtube -- Shows youtube video title from link: !youtube <link>
