@@ -1,1 +1,4 @@
-addadmin, addowner, checkupdate, cluster, info, join, leave, listadmins, listowners, memusage, newnick, plugin, quit, raw, remadmin, remowner, restart, save, server, showconfig, update, winamp, autoop, ban, cham, deop, devoice, kick, op, say, topic, unban, voice, bash, gethost, hash, help, md5, morse, note, ping, ripe, uptime, weather, webstatus, webtitle, wikipedia, youtube.
+addadmin, addowner, checkupdate, cluster, info, join, leave, listadmins, listowners, memusage, newnick,
+plugin, quit, raw, remadmin, remowner, restart, save, server, showconfig, update, winamp, autoop, ban,
+cham, deop, devoice, kick, op, say, topic, unban, voice, bash, gethost, hash, help, md5, morse, note, ping,
+ripe, uptime, weather, webstatus, webtitle, wikipedia, youtube.
